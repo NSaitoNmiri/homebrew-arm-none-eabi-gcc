@@ -4,7 +4,7 @@ class ArmNoneEabiGcc48 < Formula
   homepage 'https://launchpad.net/gcc-arm-embdded'
   version '20140609'
   url 'https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q2-update/+download/gcc-arm-none-eabi-4_8-2014q2-20140609-mac.tar.bz2'
-  md5 '4a05e26d9eb30f43752667a34001e755'
+  sha1 '751895b7c967dcc964b98c86f06198a3457a859e'
 
   def install 
     ohai 'Copying binaries...'
