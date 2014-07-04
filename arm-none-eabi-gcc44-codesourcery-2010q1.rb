@@ -18,7 +18,7 @@ class ArmNoneEabiGcc44Codesourcery2010q1 < Formula
     ohai 'Copying binaries...'
     ohai 'To use this package, other gcc compiler packages for ARM processor should be unlinked so that this package can be linked.'
     ohai '(e.g.) $ brew unlink arm-none-eabi-gcc47'
-    ohai '$ brew link arm-none-eabi-gcc44-codesourcery-2010q1'
+    ohai '       $ brew link arm-none-eabi-gcc44-codesourcery-2010q1 --force'
 
     system 'cp', '-rv', 'arm-none-eabi', 'bin', 'lib', 'libexec', "#{prefix}/"
 
