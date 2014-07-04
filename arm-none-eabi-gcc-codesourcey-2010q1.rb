@@ -6,7 +6,7 @@ class ArmNoneEabiGccCodesourcery2010q1 < Formula
   url 'http://static.leaflabs.com/pub/codesourcery/arm-2010q1-188-arm-none-eabi-toolchain-macosx32.tar.gz'
   sha1 'adf9ca424d9ac5f6ecd67d013332e4b0ffbd0cf5'
 
-  keg_only
+  keg-only
 
   def install 
     ohai 'Copying binaries...'
