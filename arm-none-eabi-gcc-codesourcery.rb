@@ -1,6 +1,6 @@
 require 'formula'
 
-class ArmNoneEabiGccCodesourcery < Formula
+class ArmNoneEabiGccCodesourcery2010q1 < Formula
   homepage 'http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/'
   version '2010q1-188'
   url 'http://static.leaflabs.com/pub/codesourcery/arm-2010q1-188-arm-none-eabi-toolchain-macosx32.tar.gz'
